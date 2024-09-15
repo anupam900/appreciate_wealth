@@ -22,7 +22,7 @@ Installation
 To get started with the project, follow these steps:
 
 Clone the repository:
-git clone https://github.com/anupam900/fruits-ai.git
+git clone https://github.com/anupam900/appreciate_wealth
 
 Navigate to the project directory:
 cd fruits-ai
