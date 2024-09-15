@@ -1,0 +1,72 @@
+.homepage {
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif; /* Use the new font */
+    background: linear-gradient(to bottom, #B6E0FE, #D3BDFE, #FFB6C1); /* Gradient background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: whitesmoke;
+  }
+  
+  .slogan {
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+  
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: purple;
+    font-size: 1.5em; /* Increase font size */
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for 3D effect */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .icon:hover {
+    transform: translateY(-5px); /* Lift the icon slightly on hover */
+  }
+  
+  .icon-image {
+    width: 80px; /* Adjust the size as needed */
+    height: 80px; /* Adjust the size as needed */
+  }
+  
+  .chat {
+    background-color: #FFA07A; /* Soft orange for chat box */
+  }
+  
+  .translator {
+    background-color: #87CEFA; /* Light blue for translator box */
+  }
+  
+  .faq {
+    background-color: #98FB98; /* Light green for FAQ box */
+  }
+  
+  .about {
+    background-color: #FFB6C1; /* Pink for about box */
+  }
+  
+  .blank1, .blank2 {
+    background-color: rgba(211, 211, 211, 0.5); /* Light grey color with transparency */
+    backdrop-filter: blur(5px); /* Blur effect */
+  }
+  

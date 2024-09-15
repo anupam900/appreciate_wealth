@@ -1,0 +1,44 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    width: 100%; /* Full width */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with slight transparency */
+    border-radius: 20px 20px 0 0; /* Curved top corners */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Blur effect */
+    text-align: center;
+  }
+  
+  .about-header {
+    font-size: 2.5em; /* Larger font size for header */
+    color: #4A90E2; /* Color matching the image */
+  }
+  
+  .about-text {
+    font-size: 1.2em; /* Standard text size */
+    line-height: 1.6; /* For better readability */
+    color: #666; /* Color matching the image */
+  }
+  
+  .about-button {
+    width: 258px;
+    height: 50px;
+    background-color: #4A90E2; /* Button color matching the header */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1em;
+    margin-top: 20px; /* Space above the button */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .about-button:hover {
+    background-color: #357ABD; /* Darker shade on hover */
+  }
+  
